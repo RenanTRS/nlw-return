@@ -1,11 +1,12 @@
-import { CloseButton } from "../CloseButton";
+import { useState } from "react";
+import { FeedbackTypeStep } from "./Steps/FeedbackTypeStep";
+import { FeedbackContentStep } from "./Steps/FeedbackContentStep";
 
 import bugImgUrl from '../../assets/bug.svg'
 import ideaImgUrl from '../../assets/idea.svg'
 import thoughtImgUrl from '../../assets/thought.svg'
-import { useState } from "react";
 
-const feedBackTypes = {
+export const feedBackTypes = {
     BUG: {
         title: "Problema",
         image: {
@@ -28,37 +29,24 @@ const feedBackTypes = {
         }
     }
 }
-type FeedbackType = keyof typeof feedBackTypes //Tipagem para o estado saber as chaves do objeto
+
+export type FeedbackType = keyof typeof feedBackTypes //Tipagem para o estado saber as chaves do objeto
 
 export function WidgetForm() {
     const [feedbackType, setFeedbackType] = useState<FeedbackType | null>(null)
+
+    function handleRestartFeedback() {
+        setFeedbackType(null)
+    }
     return (
         <div className="bg-zinc-900 p-4 relative rounded-2xl mb-4 flex flex-col items-center shadow-lg w-[calc(100vw-2rem)] md:w-auto">
-            <header>
-                <span className="text-xl leading-6">Deixe seu feedback</span>
-                
-                <CloseButton />
-            </header>
-            
             {!feedbackType ? (
-                <div className="flex py-8 gap-2 w-full">
-                    { Object.entries(feedBackTypes).map(([index, value])=>{
-                        return (
-                            <button
-                                key={index}
-                                className="bg-zinc-800 rounded-lg py-5 w-24 flex-1 flex flex-col items-center gap-2 border-2 border-transparent hover:border-brand-500 focus:border-brand-500 focus:outline-none"
-                                onClick={() => setFeedbackType(index as FeedbackType)} //Err Argument of type string is not assignable to parameter of type
-                                type="button"
-                            >
-                                <img src={value.image.source} alt={value.image.alt} />
-                                
-                                <span>{value.title}</span>
-                            </button>
-                        )
-                    }) }
-                </div>
+                <FeedbackTypeStep onFeedbackTypeChanged={setFeedbackType} />
             ):(
-                <p>Hello World</p>
+                <FeedbackContentStep 
+                    feedbackType={feedbackType}
+                    onFeedbackRestartRequested={handleRestartFeedback}
+                />
             ) }
 
             <footer className="text-xs text-neutral-400">
