@@ -1,8 +1,8 @@
-import { CloseButton } from "./CloseButton";
+import { CloseButton } from "../CloseButton";
 
-import bugImgUrl from '../assets/bug.svg'
-import ideaImgUrl from '../assets/idea.svg'
-import thoughtImgUrl from '../assets/thought.svg'
+import bugImgUrl from '../../assets/bug.svg'
+import ideaImgUrl from '../../assets/idea.svg'
+import thoughtImgUrl from '../../assets/thought.svg'
 import { useState } from "react";
 
 const feedBackTypes = {
