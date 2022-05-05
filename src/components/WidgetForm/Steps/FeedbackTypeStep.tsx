@@ -4,9 +4,7 @@ import { CloseButton } from "../../CloseButton";
 interface FeedbackTypeSetpProps {
   onFeedbackTypeChanged: (type: FeedbackType) => void;
 }
-export function FeedbackTypeStep({
-  onFeedbackTypeChanged,
-}: FeedbackTypeSetpProps) {
+export function FeedbackTypeStep({onFeedbackTypeChanged}: FeedbackTypeSetpProps) {
   return (
     <>
       <header>
