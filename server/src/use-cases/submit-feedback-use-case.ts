@@ -15,6 +15,18 @@ export class SubmitFeedbackUseCase {
     async execute(req: SubmitFeedbackUseCaseRequest) {
         const {type, comment, screenshot} = req
 
+        //Regras de negócio
+        if(!type){
+            throw new Error('Type is required')
+        }
+        if(!comment){
+            throw new Error('Comment is required')
+        }
+        if(screenshot && !screenshot.startsWith('data:image/png;base64')){
+            //se existir screenshot e ela não começar com data:image/png;base64
+            throw new Error('Invalid screenshot.')
+        }
+
         await this.feedbakcsRepository.create({
             type,
             comment,
@@ -30,7 +42,7 @@ export class SubmitFeedbackUseCase {
                 `</div>`
             ].join('\n')
         })
-        
+
         return {type, comment, screenshot}
     }
 }
