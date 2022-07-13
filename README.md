@@ -14,10 +14,7 @@
 </p>
 
 <p align="center">
-    <img src="./design/nlw-return-demo-1.png" alt="demo mobile"/ width="40%">
-    <img src="./design/nlw-return-demo-2.png" alt="demo mobile"/ width="40%">
-    <img src="./design/nlw-return-demo-3.png" alt="demo mobile"/ width="40%">
-    <img src="./design/nlw-return-demo-4.png" alt="demo mobile"/ width="40%">
+    <img src="./design/screens-web_mobile.png" alt="demo mobile" width="70%"/>
 </p>
 
 ## How to use
@@ -65,131 +62,20 @@ $ npm run start
 ```
 
 ## Built with  
-<div>
-    <div style="display:flex; gap:10%; justify-content:center; align-items:start">
-        <table width="30%" style="text-align:center">
-            <tr>
-                <th style="text-align: center">Front-End</th>
-            </tr>
-            <tr>
-                <td><a href="https://vitejs.dev/guide/#scaffolding-your-first-vite-project">Vite</a></td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://reactjs.org/">
-                        ReactJs
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://www.typescriptlang.org/">
-                        Typescript
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://tailwindcss.com/docs/installation">
-                        TailwindCss
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://headlessui.com/react/popover">
-                        Popover headlessUi
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://axios-http.com/ptbr/docs/intro">
-                        Axios
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://phosphoricons.com/">
-                        PhosphorIcons
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://html2canvas.hertzen.com/">
-                        Html2Canvas
-                    </a>
-                </td>
-            </tr>
-        </table>
-        <table width="30%" style="text-align:center">
-            <tr>
-                <th style="text-align: center">
-                    Back-End
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://nodejs.org/en/">
-                        NodeJS
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://www.typescriptlang.org/">
-                        Typescript
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://expressjs.com/pt-br/">
-                        Express
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://www.npmjs.com/package/cors">
-                        Cors
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://www.prisma.io/">
-                        Prisma
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://nodemailer.com/about/">
-                        Nodemailer
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://jestjs.io/pt-BR/docs/getting-started">
-                        Jest
-                    </a>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="https://swc.rs/docs/usage/jest">
-                        SWC
-                    </a>
-                </td>
-            </tr>
-        </table>
-    </div>
-</div>
+<center>
 
+| Front-End | | | Back-end |
+| :------------------:|:----------:|:----------:|:----------:|
+| [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)| | |[NodeJs](https://nodejs.org/en/)|
+| [ReactJs](https://reactjs.org/)| | |[Typescript](https://www.typescriptlang.org/)|
+| [Typescript](https://www.typescriptlang.org/)| | |[Express](https://expressjs.com/pt-br/)|
+| [TailwindCss](https://tailwindcss.com/docs/installation)| | |[Cors](https://www.npmjs.com/package/cors)|
+| [Popover-headlessUI](https://headlessui.com/react/popover)| | |[Prisma](https://www.prisma.io/)|
+| [Axios](https://axios-http.com/ptbr/docs/intro)| | |[Nodemailer](https://nodemailer.com/about/)|
+| [PhosphorIcons](https://phosphoricons.com/)| | |[Jest](https://jestjs.io/pt-BR/docs/getting-started)|
+| [Html2Canvas](https://html2canvas.hertzen.com/)| | |[SWC](https://swc.rs/docs/usage/jest)|
+
+</center>
 
 ## Contact
 - Email me - renantrsouza@gmail.com  
