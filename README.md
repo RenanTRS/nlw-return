@@ -64,16 +64,16 @@ $ npm run start
 ## Built with  
 <center>
 
-| Front-End | | | Back-end |
-| :------------------:|:----------:|:----------:|:----------:|
-| [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)| | |[NodeJs](https://nodejs.org/en/)|
-| [ReactJs](https://reactjs.org/)| | |[Typescript](https://www.typescriptlang.org/)|
-| [Typescript](https://www.typescriptlang.org/)| | |[Express](https://expressjs.com/pt-br/)|
-| [TailwindCss](https://tailwindcss.com/docs/installation)| | |[Cors](https://www.npmjs.com/package/cors)|
-| [Popover-headlessUI](https://headlessui.com/react/popover)| | |[Prisma](https://www.prisma.io/)|
-| [Axios](https://axios-http.com/ptbr/docs/intro)| | |[Nodemailer](https://nodemailer.com/about/)|
-| [PhosphorIcons](https://phosphoricons.com/)| | |[Jest](https://jestjs.io/pt-BR/docs/getting-started)|
-| [Html2Canvas](https://html2canvas.hertzen.com/)| | |[SWC](https://swc.rs/docs/usage/jest)|
+| Front-End | Back-end |
+| :------------------:|:----------:|
+| [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)|[NodeJs](https://nodejs.org/en/)|
+| [ReactJs](https://reactjs.org/)|[Typescript](https://www.typescriptlang.org/)|
+| [Typescript](https://www.typescriptlang.org/)|[Express](https://expressjs.com/pt-br/)|
+| [TailwindCss](https://tailwindcss.com/docs/installation)|[Cors](https://www.npmjs.com/package/cors)|
+| [Popover-headlessUI](https://headlessui.com/react/popover)|[Prisma](https://www.prisma.io/)|
+| [Axios](https://axios-http.com/ptbr/docs/intro)|[Nodemailer](https://nodemailer.com/about/)|
+| [PhosphorIcons](https://phosphoricons.com/)|[Jest](https://jestjs.io/pt-BR/docs/getting-started)|
+| [Html2Canvas](https://html2canvas.hertzen.com/)|[SWC](https://swc.rs/docs/usage/jest)|
 
 </center>
 
