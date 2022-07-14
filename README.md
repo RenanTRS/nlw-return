@@ -57,8 +57,17 @@ $ npm run build
 
 #Run build server (back-end)
 $ yarn start
-#ou
+#or
 $ npm run start
+```
+## ENV variables
+### Web
+```cl
+VITE_API_URL= your_baseURL_here
+```
+### Server
+```cl
+DATABASE_URL="your_database_string_connection_here"
 ```
 
 ## Built with  
